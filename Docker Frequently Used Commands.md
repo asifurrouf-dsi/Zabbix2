@@ -1,4 +1,15 @@
-### Docker Frequently Used Commands ###
+# Docker Frequently Used Commands #
+
+## Docker Compose ##
+
+1. docker-compose up || docker-compose up -d || docker-compose down
+2. docker-compose ps
+3. docker-compose stop || docker-compose start
+4. docker-compose rm -f
+
+## Docker Logs ##
+
+1. docker logs containerID
 
 ## Docker Containers ##
 
@@ -36,3 +47,18 @@ Fetch the logs of a container
 
 
 9. docker rm containerID
+
+## Docker Images ##
+
+1. docker images
+2. docker rmi imageID
+3. docker build -t containerName (assumes that valid `Dockerfile` exists in the current directory)
+
+## Docker Registry ##
+
+1. docker login
+2. docker pull
+3. docker push
+
+
+
