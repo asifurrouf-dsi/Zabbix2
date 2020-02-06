@@ -30,7 +30,7 @@ version: '3'
        MYSQL_USER: root
        MYSQL_PASSWORD: zabbix
        ZBX_SERVER_HOST: "zabbix-server"
-       PHP_TZ: Asia/Shanghai
+       PHP_TZ: Asia/Dhaka
      ports:
        - '80:80'
        - '443:443'
